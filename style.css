@@ -1,0 +1,154 @@
+#bio {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-size: 19px; 
+}
+
+.segment {
+  display: flex;
+  margin: 10px;
+}
+
+.left {
+  max-width: 40%;
+  min-width: 40%;
+  margin-right: 20px;
+}
+
+blockquote::before {
+  content: '”';
+  display: block;
+  position: absolute;
+  font-size: 140px;
+  text-align: left;
+  height: 50px;
+  top: 40px;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  color: white;
+  background: #222;
+  padding-top: 50px;
+  padding-bottom:30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 50px;
+  text-align: left;
+  margin: 0;
+}
+
+.text {
+  display: block;
+  position: relative;
+  max-width: 60%;
+  min-width: 60%;
+}
+
+header {
+  background: #222;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  background: #222;
+  color: white;
+  border: 1px solid #222;
+  widht: auto;
+  height: 93px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 7px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 7px 3px grey;
+}
+
+.picture {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-size: 1900px;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 600px;
+}
+
+
+.title {
+  position: absolute;
+  bottom: 35px;
+  left: 150px;
+  text-align: left;
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+ul {
+ list-style-type: square;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 40px;
+}
+
+li {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin: 60px 0;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 40px;
+}
